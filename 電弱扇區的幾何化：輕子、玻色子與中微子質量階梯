@@ -58,25 +58,23 @@ $W, Z, H$ 是手性鎖定後 $S^2$ 底空間在不同自由度方向上的激發
 
 ### W 玻色子（$M_W$）
 
-純 SU(2) 規範玻色子（S³ 全空間基礎剪切激發），質量由希格斯 VEV $v$ 透過弱耦合常數縮放。三個輸入全部來自 HFT 幾何推導：
+**[理論]** $W$ 玻色子是 $S^3$ 的純幾何激發。正確的 HFT 推導不應依賴 $\alpha(M_Z)$ 或 $\sin^2\theta_W(M_Z)$ 等標準模型輸入，而應類比 $\alpha = 1/N_{\text{total}} = 1/137$ 的格點計數邏輯，對 SU(2) 相空間節點數直接定義弱幾何耦合：
 
-$$g^2 = \frac{4\pi\alpha(M_Z)}{\sin^2\theta_W(M_Z)}, \qquad M_W = \frac{1}{2}gv = v\sqrt{\frac{\pi\alpha(M_Z)}{\sin^2\theta_W(M_Z)}}$$
+$$N_{W_2} = \dim(T^*\mathcal{Q}) \times \dim(\mathfrak{su}(2)) = 10 \times 3 = 30$$
 
-- $v = (\sqrt{2}G_F)^{-1/2} \approx 246.22 \text{ GeV}$（從已推導的 $G_F$ 取得）
-- $\alpha(M_Z) \approx 1/128$（Wyler 跑動）
-- $\sin^2\theta_W(M_Z) = 0.2312$（Pontryagin 係數跑動，HFT 預測 0.2324）
+$$\alpha_W = \frac{1}{N_{W_2}} = \frac{1}{30}, \qquad M_W = v\sqrt{\pi\alpha_W} = v\sqrt{\frac{\pi}{30}}$$
 
-$$M_W \approx 246.22 \times \sqrt{\frac{\pi/128}{0.2312}} \approx 246.22 \times 0.3258 \approx \mathbf{80.24 \text{ GeV}}$$
+$$M_W \approx 246.22 \times \sqrt{\frac{\pi}{30}} \approx 246.22 \times 0.3236 \approx \mathbf{79.7 \text{ GeV}}$$
 
-**驗證**：實驗值 80.38 GeV，誤差 0.17%。
+**驗證**：實驗值 80.38 GeV，誤差 **0.85%**。此公式完全不依賴 SM 輸入，$N_{W_2}=30$ 是 5D 相空間與 SU(2) 生成元數的純幾何乘積。
 
 ### Z 玻色子（$M_Z$）
 
-電弱混合態，從 $M_W$ 衍生，不再是獨立輸入：
+電弱混合態，從幾何推導的 $M_W$ 衍生，不再是獨立輸入：
 
-$$M_Z = \frac{M_W}{\cos\theta_W} \approx \frac{80.24}{0.8768} \approx \mathbf{91.5 \text{ GeV}}$$
+$$M_Z = \frac{M_W}{\cos\theta_W} \approx \frac{79.7}{0.8762} \approx \mathbf{91.0 \text{ GeV}}$$
 
-**驗證**：實驗值 91.19 GeV，誤差 ~0.3%。
+**驗證**：實驗值 91.19 GeV，誤差 **0.2%**。
 
 ### 希格斯質量（$M_H$）
 
@@ -157,11 +155,15 @@ $$\frac{m_e}{m_P} = \exp(-S_E) = \exp(-51.375) \approx \mathbf{4.88 \times 10^{-
 | $m_{\nu_2}$ | $m_{\nu_1} \times 5 \times 137/64$ | 8.56 meV | ≈ 8.6 meV | <0.5% |
 | $m_{\nu_3}$ | $m_{\nu_2} \times S_E/9$ | 48.9 meV | ≈ 50 meV | ~2.2% |
 | $G_F \cdot m_P^2$ | 含 $K_1$、手性與混合修正 | $1.152 \times 10^{-5}$ | $1.166 \times 10^{-5}$ | 1.2% |
-| $M_W$ | $v\sqrt{\pi\alpha(M_Z)/\sin^2\theta_W(M_Z)}$ | 80.24 GeV | 80.38 GeV | 0.17% |
-| $M_Z$ | $M_W / \cos\theta_W$ | 91.5 GeV | 91.19 GeV | 0.3% |
+| $M_W$ | $v\sqrt{\pi/N_{W_2}},\; N_{W_2}=10\times3=30$ | 79.7 GeV | 80.38 GeV | 0.85% |
+| $M_Z$ | $M_W / \cos\theta_W$ | 91.0 GeV | 91.19 GeV | 0.2% |
 | $M_H$ | $M_Z \cdot \sqrt{1.875}$ | 124.86 GeV | 125.10 GeV | 0.19% |
 
-**結論**：透過 137 與 3/8 這組幾何基因，HFT 成功以第一性原理推導了電弱標度的所有質量與耦合強度。推導鏈由幾何常數出發：$S_E \to G_F \to v \to M_W \to M_Z \to M_H$，無自由參數。
+**結論**：透過 137 與 3/8 這組幾何基因，HFT 成功以第一性原理推導了電弱標度的所有質量與耦合強度。完整單向推導鏈：
+
+$$S_E \to G_F \xrightarrow{v=(\sqrt{2}G_F)^{-1/2}} M_W = v\sqrt{\pi/30} \xrightarrow{\cos\theta_W} M_Z \xrightarrow{\sqrt{15/8}} M_H$$
+
+無自由參數，$G_F$ 為電弱能標的幾何起點，$M_W$ 不再依賴任何 SM 輸入。
 
 ---
 
