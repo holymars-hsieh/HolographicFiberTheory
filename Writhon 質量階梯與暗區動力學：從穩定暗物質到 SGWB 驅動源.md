@@ -1,6 +1,13 @@
 # Writhon 質量階梯與暗區動力學：從穩定暗物質到 SGWB 驅動源
 
-**摘要**：在 Holographic Fiber Theory (HFT) 框架中，Writhon 被定義為電弱對稱性破缺（EWSB）過程中，手性鎖定導致的幾何補償效應（基於 Cǎlugǎreanu 守恆 $\text{Lk} = \text{Tw} + \text{Wr}$）。本文件推導三代 Writhon 的完整質量階梯，並嚴格區分其本體論類別：$W^{(1)}$（可滑動局域扭結）與 $W^{(2)}$（亞穩態激發）是真實的激發態，具有可定義的質量；$W^{(3)}$（定子）是網格本身，不具備慣性質量，其效應表現為宇宙常數 $\Lambda$。
+**摘要**：在 Holographic Fiber Theory (HFT) 框架中，Writhon 被定義為電弱對稱性破缺（EWSB）過程中，手性鎖定導致的幾何補償效應（基於 Călugăreanu 守恆 $\text{Lk} = \text{Tw} + \text{Wr}$）。本文件推導三代 Writhon 的完整質量階梯，並嚴格區分其本體論類別：$W^{(1)}$（可滑動局域扭結）與 $W^{(2)}$（亞穩態激發）是真實的激發態，具有可定義的質量；$W^{(3)}$（定子）是網格本身，不具備慣性質量，其效應表現為宇宙常數 $\Lambda$。
+
+> **v9 同步狀態（2026-04-27）**：🟡 **小修**
+> - 對照論文：v9 §6（Bekenstein wall + 222 PeV）、§7（GR + Λ via CKN bound）、abstract 第三段（W^(1,2,3) ↔ DM/DE/Λ-stator anti-chiral identification）
+> - **數值 sync**：v9 §6 Box 公式給出 $E_\nu = M_{W^{(1)}} \times 137^4/8 \approx 222$ PeV（本文舊版本寫 224，原因是早期使用 $W^{(1)} = 5.09$ GeV；v9 重新校準後 $M_{W^{(1)}} = 5.05$ GeV）
+> - **數值 sync**：$M_{W^{(2)}} = M_{W^{(1)}} \times 137 \approx 691$ GeV（v9 Table），本文舊值 697 GeV 為早期估算
+> - **新增**：v9 §7 Λ magnitude 論證——W^(3) stator 在 Hubble 視界內的剛性自然給出 $\Lambda \sim M_P^2/R_H^2 \sim 10^{-122} M_P^4$（CKN 1999 機制），本文 §五的 $W^{(3)}$ 章節可順帶引用
+> - **新增**：v9 abstract 第三段把 W^(1,2,3) 標記為 **anti-chiral** topological-knot excitations（手性鎖定踢出去的 $Tw_R$ 鏡像譜），此標記補強了暗物質-暗能量-Λ 的統一身分
 
 > **陳述分類**：本文件沿用主框架四分法——**[事實]**、**[理論]**、**[假設]**、**[猜想]**。
 
@@ -117,7 +124,7 @@ $$\Lambda(t) \propto \rho_{W^{(2)}}(t) \cdot \Gamma_{W^{(2)}}$$
 
 **[猜想] 真空能問題的解決**：標準量子場論中真空能的「$10^{120}$ 倍」困難，根源在於把網格本身的剛性當作場的激發來計算並求和。在 HFT 中，$W^{(3)}$ 的定義排除了這個混淆：$T_{\mu\nu}^{\text{vac}} = 0$ 是框架的邊界條件（以均勻 $W^{(3)}$ 背景為零點），而非場論計算的輸出。
 
-### 5.1 超載應力回彈：超高能中微子的拓撲起源
+### 5.1 極限應力回彈：超高能中微子的拓撲起源
 
 **[猜想]** 當極端天文物理過程在時空格點上施加試圖突破 N=3 Bekenstein 飽和上限的應力時，定子無法吸收此能量（N=4 被 Bekenstein 禁止），全量彈性回彈，並透過 Cǎlugǎreanu 守恆以 Twist 物件形式釋出，即一根超高能中微子。
 
@@ -132,7 +139,6 @@ $$\boxed{E_{\rm rebound} = W^{(1)} \times 137^3 \times \frac{137}{8} = W^{(1)} \
 **Cǎlugǎreanu 機制**：應力試圖注入 $\Delta\text{Wr} = +1$（嘗試 N=4），定子 Bekenstein 壁強制全反射，守恆要求等量 $\Delta\text{Tw} = +1$ 釋出，即一個 Twist 物件（中微子）。這是框架既有的 EWSB 拓撲機制（$\nu_R \to \nu_L + \Delta\text{Wr}$）的嚴格逆過程。
 
 **觀測錨點**：2025 年 KM3NeT 合作組報告能量約 $220~\text{PeV}$ 的宇宙中微子事件。HFT 預測值 $224~\text{PeV}$，誤差 **1.8%**，在中微子能量重建不確定度範圍內。此類事件的源頭應為極端天文物理環境（AGN 核心、GRB、中子星合并），其共同特徵是局部能量密度足以觸及普朗克格點的 Bekenstein 上限。
-
 
 ---
 
@@ -157,6 +163,7 @@ $$\boxed{E_{\rm rebound} = W^{(1)} \times 137^3 \times \frac{137}{8} = W^{(1)} \
 | $M_{W^{(2)}}$ | $M_{W^{(1)}} \times 137$ | $697\text{ GeV}$ | 未測 | — |
 | $M_{W^{(3)}}$ | 不適用（網格剛性）| — | — | — |
 | SGWB 峰值頻率 | $W^{(2)}$ 衰變@EWSB 尺度 | $\sim\text{mHz}$ | LISA 靈敏度窗口 | 待測 |
+| $E_{\rm rebound}$（Bekenstein 壁回彈）| $W^{(1)} \times 137^4/8$ | $224~\text{PeV}$ | $\approx 220~\text{PeV}$（KM3NeT 2025）| $1.8\%$ |
 
 ---
 

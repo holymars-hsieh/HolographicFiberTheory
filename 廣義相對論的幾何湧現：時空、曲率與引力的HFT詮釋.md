@@ -4,6 +4,16 @@
 
 > **陳述分類**：本文件沿用主框架的四分法——**[事實]**、**[理論]**、**[假設]**、**[猜想]**。
 
+> **v9 同步狀態（2026-04-27）**：🔴 **中修**
+> - 對照論文：v9 §7（GR as Emergent Fiber Elasticity，已大幅擴充）
+> - **過時點 1（§四.3 W^(3) 定子的零點角色）**：本文寫「真空能 $10^{120}$ 災難在定義層次上消除」這個宣稱在 v9 已降溫並補強為 calibrated framing：v9 §7 明確區分「機制層 decoupling」（HFT 解）與「數值層 magnitude」（CKN 1999 holographic bound 給出 $\Lambda \sim M_P^2/R_H^2 \sim 10^{-122} M_P^4$，HFT 補完 CKN 缺失的結構性物件——W^(3) stator）
+> - **新增（v9 §7 Para 2）**：Λ 數量級論證
+>   - 機制層：$T_{\mu\nu}$ 不源化 W^(3) 結構基線（HFT 唯一新貢獻）
+>   - 數量級層：W^(3) 剛性分散到 $N_\text{universe} \sim (R_H/l_P)^2 \sim 10^{122}$ holographic cells → 每 cell 應力 $\sim M_P^4/N_\text{universe} \sim 10^{-122} M_P^4$
+>   - 嚴格數值推導需 cosmic expansion history 與 stator elastic profile 的耦合，留為 future work
+> - **新引文**：CKN 1999（Cohen-Kaplan-Nelson, Phys. Rev. Lett. 82, 4971）
+> - 其他章節（§五 Einstein 場方程推導、§六 史瓦西解、§七 黑洞物理）與 v9 §7 一致，無需動
+
 ---
 
 ## 一、物理本體論設定

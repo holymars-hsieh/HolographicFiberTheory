@@ -2,6 +2,12 @@
 
 **摘要**：Moffat & Thompson (2025) 的 Holomorphic Unified Field Theory (HUFT, arXiv:2506.19161) 在四複維流形 $\mathbb{C}^4$ 上以全純 Hermitian 度規統一引力與標準模型。本文件證明，透過一個自然的映射 $\mathbb{C}^4 \to S^3$ 加上五個常數選定，HUFT 可以精確簡化為 HFT——且兩個框架的核心代數結構（Hermitian 分解 vs. Tw+Wr，全純相容條件 vs. Călugăreanu 定理）在映射下完全同構。
 
+> **v9 同步狀態（2026-04-27）**：🟡 **小修**
+> - 對照論文：v9 §3（Three-Tier Emergence）、App A（128+9=137）、§7（GR + Λ）
+> - **過時點 1**：四節「五個常數選定」的「$N_\text{Bekenstein} = 128 + 9 = 137$」需更新為 v9 App A.2-A.3 的拓撲推導：$9 = N_c^2 = \dim U(N_c)$ 從 trivalent 配位 ($N_c=3$) 推出，再透過 $U(N_c) = SU(N_c) \times U(1)$ 代數分解 + Cartan 分類選定 $\mathfrak{su}(3)$；不再從 SM「8 fermion + 1 W boson」反推
+> - **過時點 2**：未提及 v9 §6 新增的 222 PeV / KM3NeT 230213A 預測（HFT 透過 Bekenstein wall + Călugăreanu 機制給出 $E_\nu = M_{W^{(1)}} \times 137^4/8 \approx 222$ PeV，HUFT 在 Picard-Lefschetz 鞍點層級是否有對應機制？開放問題）
+> - **過時點 3**：未提及 v9 §7 的 Λ 數量級論證（CKN 1999 的 holographic bound：$\Lambda \sim M_P^2/R_H^2 \sim 10^{-122} M_P^4$，由 W^(3) stator 在 Hubble 視界內的剛性自然給出）
+
 > **陳述分類**：本文件沿用主框架的四分法——**[事實]**、**[理論]**、**[假設]**、**[猜想]**。
 
 **參考**：J. W. Moffat & E. J. Thompson, *Holomorphic Unified Field Theory of Gravity and the Standard Model*, arXiv:2506.19161v2 (2025).
